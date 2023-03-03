@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/JSort_V2/static/css/main.3492f359.css",
-    "main.js": "/JSort_V2/static/js/main.d37f7f74.js",
-    "index.html": "/JSort_V2/index.html",
-    "main.3492f359.css.map": "/JSort_V2/static/css/main.3492f359.css.map",
-    "main.d37f7f74.js.map": "/JSort_V2/static/js/main.d37f7f74.js.map"
+    "main.css": "/JSortV2/static/css/main.3492f359.css",
+    "main.js": "/JSortV2/static/js/main.d37f7f74.js",
+    "index.html": "/JSortV2/index.html",
+    "main.3492f359.css.map": "/JSortV2/static/css/main.3492f359.css.map",
+    "main.d37f7f74.js.map": "/JSortV2/static/js/main.d37f7f74.js.map"
   },
   "entrypoints": [
     "static/css/main.3492f359.css",
