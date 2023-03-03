@@ -2,13 +2,23 @@
   height: 60px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background-color: #81e2ff;
+  justify-content: center;
+  background-color: #5a0394;;
   padding: 0px 80px;
 }
 
 .header span {
-  color: crimson;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  
+  /* border: 4px 4px 4px 4px black; */
+}
+
+.header span :hover{
+  color: rgb(0, 0, 0);
 }
 
 .header-logo {

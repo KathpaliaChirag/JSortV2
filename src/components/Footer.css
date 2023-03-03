@@ -1,0 +1,117 @@
+
+.footer {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5a0394;;
+    /* padding: 0px 80px; */
+  }
+  
+  .footer span {
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    
+    /* border: 4px 4px 4px 4px black; */
+  }
+  
+  .footer span :hover{
+    color: rgb(0, 0, 0);
+  }
+  
+  .footer-logo {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  
+  .footer__options {
+    display: flex;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .footer__option {
+    font-weight: 500;
+    /* margin-left: 00px; */
+    color: rgb(108, 204, 25);
+    cursor: pointer;
+  }
+  
+  #footer__bar {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    height: 400px;
+    width: 80%;
+    color: #ffffff;
+    background: linear-gradient(#09098f 20%,#39097c 65%,#a10baf);
+    transition: 1.5s ease all;
+    z-index: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .footer__bar__title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer__bar__icons {
+    color: rgb(255, 255, 255);
+  }
+  
+  #footer__bar img {
+    height: 40px;
+    width: 40px;
+    margin: 0px 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #footer__bar {
+        position: absolute;
+        right: 50px;
+        bottom: 60px;
+        height: 400px;
+        width: 80%;
+        color: #ffffff;
+        background: linear-gradient(#09098f 20%,#39097c 65%,#a10baf);
+        transition: 1.5s ease all;
+        z-index: 300;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer-logo {
+      margin-right: -50px;
+    }
+  
+    .footer__bar__title {
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+      }
+      
+    .footer {
+      padding: 0px 10px;
+    }
+  
+    .footer__option {
+      font-size: 0.9rem;
+    }
+    #footer__bar img {
+        height: 40px;
+        width: 40px;
+        margin: 10px 40px 10px 55px;
+      }
+      
+  }
+  

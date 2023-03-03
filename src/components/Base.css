@@ -1,0 +1,11 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 91.8%;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    flex-direction: column;
+  }
+}

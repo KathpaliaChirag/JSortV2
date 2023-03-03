@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
+  /* top:200px; */
 }
 
 .visualizer {
@@ -13,6 +14,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  top: 120px;
 }
 
 .legend {
@@ -80,6 +82,20 @@
 
   .visuals {
     padding-top: 10px;
+  }
+
+  .visual__btns > button {
+    margin-bottom: -3px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .visual__btns {
+    display: flex;
+    margin-top: -20px;
+  }
+
+  .visuals {
+    padding-top: 40px;
   }
 
   .visual__btns > button {
