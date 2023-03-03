@@ -11,7 +11,7 @@ function Footer() {
 
   return (
     <div className="footer">
-      <div id="footer__bar" style = {{transform: showFooterBar? `translateY(-60px)`: `translateY(600px)`}}>
+      <div id="footer__bar" style = {{transform: showFooterBar? `translateY(800px)`: `translateY(-90px)`}}>
         <h3 className="footer__bar__title">CHIRAG KATHPALIA</h3>
         <div className="footer__bar__icons">
           <a href="#" target='_blank'><img src="https://img.icons8.com/ios/50/000000/facebook--v1.png"/></a>
