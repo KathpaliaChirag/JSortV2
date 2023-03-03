@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/JSortV2/static/css/main.3492f359.css",
+    "main.js": "/JSortV2/static/js/main.d37f7f74.js",
+    "index.html": "/JSortV2/index.html",
+    "main.3492f359.css.map": "/JSortV2/static/css/main.3492f359.css.map",
+    "main.d37f7f74.js.map": "/JSortV2/static/js/main.d37f7f74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3492f359.css",
+    "static/js/main.d37f7f74.js"
+  ]
+}
