@@ -75,7 +75,7 @@ function Sidebar() {
          setMax(100);
       else if(window.innerWidth>1200)
          setMax(80);
-      else if(window.innerWidth>100)
+      else if(window.innerWidth>1000)
          setMax(70);
       else if(window.innerWidth>900)
          setMax(60);
